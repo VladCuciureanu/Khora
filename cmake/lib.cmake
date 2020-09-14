@@ -10,5 +10,6 @@ endif ()
 
 include(cmake/glad.cmake)
 include(cmake/glfw.cmake)
+include(cmake/stb.cmake)
 include(cmake/imgui.cmake)
 include(cmake/rtmidi.cmake)

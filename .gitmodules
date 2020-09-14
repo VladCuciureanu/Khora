@@ -9,3 +9,6 @@
 [submodule "lib/rtmidi"]
 	path = lib/rtmidi
 	url = https://github.com/thestk/rtmidi
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb
