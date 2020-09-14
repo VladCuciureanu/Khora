@@ -6,3 +6,6 @@
 	path = lib/glad
 	url = https://github.com/Dav1dde/glad.git
 	branch = c
+[submodule "lib/rtmidi"]
+	path = lib/rtmidi
+	url = https://github.com/thestk/rtmidi
