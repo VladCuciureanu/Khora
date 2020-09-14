@@ -1,5 +1,6 @@
 find_package(OpenGL REQUIRED)
 
+# Make sure that X11 server and libs are present
 if (CMAKE_SYSTEM_NAME STREQUAL Linux)
   find_package(X11 REQUIRED)
 
@@ -8,6 +9,7 @@ if (CMAKE_SYSTEM_NAME STREQUAL Linux)
   endif ()
 endif ()
 
+# Third party libraries
 include(cmake/glad.cmake)
 include(cmake/glfw.cmake)
 include(cmake/stb.cmake)
