@@ -1,11 +1,11 @@
 project(khora-dev-toolkit)
 cmake_minimum_required(VERSION 2.8)
 
-# 3rd party libraries
+# Third party libraries
 include(cmake/lib.cmake)
 
-# macro and configurations
+# Macro and configurations
 include(cmake/config.cmake)
 
-# projects
+# Sources
 add_subdirectory(src)
